@@ -1,0 +1,39 @@
+nav{
+    background-color: black;
+    padding: 20px 0;
+    display: flex;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+
+}
+
+.menu-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.item{
+    display: block;
+    padding: 5px 10px;
+    height: 100%;
+    color: white;
+    font-size: medium;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.item a{
+    text-decoration: none;
+    color: white;
+}
